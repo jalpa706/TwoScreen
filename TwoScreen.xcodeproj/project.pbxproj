@@ -14,6 +14,7 @@
 		05D0AF961EFAA35C00BFC532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D0AF941EFAA35C00BFC532 /* LaunchScreen.storyboard */; };
 		05D0AFA11EFAA35C00BFC532 /* TwoScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0AFA01EFAA35C00BFC532 /* TwoScreenTests.swift */; };
 		05D0AFAC1EFAA35C00BFC532 /* TwoScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0AFAB1EFAA35C00BFC532 /* TwoScreenUITests.swift */; };
+		05D0AFBA1EFAA4EE00BFC532 /* second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0AFB91EFAA4EE00BFC532 /* second.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05D0AFA71EFAA35C00BFC532 /* TwoScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D0AFAB1EFAA35C00BFC532 /* TwoScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoScreenUITests.swift; sourceTree = "<group>"; };
 		05D0AFAD1EFAA35C00BFC532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D0AFB91EFAA4EE00BFC532 /* second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = second.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				05D0AF921EFAA35C00BFC532 /* Assets.xcassets */,
 				05D0AF941EFAA35C00BFC532 /* LaunchScreen.storyboard */,
 				05D0AF971EFAA35C00BFC532 /* Info.plist */,
+				05D0AFB91EFAA4EE00BFC532 /* second.swift */,
 			);
 			path = TwoScreen;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				05D0AF8E1EFAA35C00BFC532 /* ViewController.swift in Sources */,
 				05D0AF8C1EFAA35C00BFC532 /* AppDelegate.swift in Sources */,
+				05D0AFBA1EFAA4EE00BFC532 /* second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				05D0AFB21EFAA35C00BFC532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D0AFB31EFAA35C00BFC532 /* Build configuration list for PBXNativeTarget "TwoScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				05D0AFB51EFAA35C00BFC532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D0AFB61EFAA35C00BFC532 /* Build configuration list for PBXNativeTarget "TwoScreenUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				05D0AFB81EFAA35C00BFC532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
